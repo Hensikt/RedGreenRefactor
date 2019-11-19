@@ -7,10 +7,10 @@ public class Duplicator {
     /**
      * TEST DIRECTORY en TEST CLASS
      *
-     * 1. Maak een test directory aan.
-     * 2. Maak van deze directory een Test Resource Folder wordt
+     * 1. Maak een test directory aan. Done
+     * 2. Maak van deze directory een Test Resource Folder wordt. Done
      *
-     *  3. Maak een test class aan.
+     *  3. Maak een test class aan. Done
      *
      */
 
@@ -25,9 +25,11 @@ public class Duplicator {
      *
      * 4. Maak de functie duplicateCounter() af zodat de test wel werkt.
      *
+     * @param i
+     * @return
      */
-    public int duplicateCounter() {
-
+    public int duplicateCounter(int i) {
+        return i*2;
     }
 
 
